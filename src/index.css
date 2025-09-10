@@ -1,0 +1,11 @@
+@import "tailwindcss";
+/* Yeh custom CSS scrollbar ko chupa dega */
+.scrollbar-hide {
+  /* Firefox ke liye */
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  /* Chrome, Safari, etc. ke liye */
+  display: none;
+}
